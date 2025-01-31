@@ -1,0 +1,64 @@
+{
+“projectStatus”: {
+“status”: “ERROR”,
+“conditions”: [
+{
+“status”: “OK”,
+“metricKey”: “new_reliability_rating”,
+“comparator”: “GT”,
+“periodIndex”: 1,
+“errorThreshold”: “1”,
+“actualValue”: “1”
+},
+{
+“status”: “OK”,
+“metricKey”: “new_security_rating”,
+“comparator”: “GT”,
+“periodIndex”: 1,
+“errorThreshold”: “1”,
+“actualValue”: “1”
+},
+{
+“status”: “OK”,
+“metricKey”: “new_maintainability_rating”,
+“comparator”: “GT”,
+“periodIndex”: 1,
+“errorThreshold”: “1”,
+“actualValue”: “1”
+},
+{
+“status”: “ERROR”,
+“metricKey”: “new_coverage”,
+“comparator”: “LT”,
+“periodIndex”: 1,
+“errorThreshold”: “70”,
+“actualValue”: “0.0”
+},
+{
+“status”: “OK”,
+“metricKey”: “new_duplicated_lines_density”,
+“comparator”: “GT”,
+“periodIndex”: 1,
+“errorThreshold”: “50”,
+“actualValue”: “11.775043936731107”
+},
+{
+“status”: “OK”,
+“metricKey”: “new_security_hotspots_reviewed”,
+“comparator”: “LT”,
+“periodIndex”: 1,
+“errorThreshold”: “100”,
+“actualValue”: “100.0”
+}
+],
+“periods”: [
+{
+“index”: 1,
+“mode”: “days”,
+“date”: “2021-09-14T16:24:37+0200”,
+“parameter”: “30”
+}
+],
+“ignoredConditions”: false
+}
+}
